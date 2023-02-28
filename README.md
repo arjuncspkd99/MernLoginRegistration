@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# LoginRegistrationMern
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple application built using the MERN stack (MongoDB, Express, React, Node.js) that provides user login and registration functionality. The application consists of both frontend and backend components, and is designed to be a basic starting point for building more complex applications that require user authentication.
 
-## Available Scripts
+## Features
+The application includes the following features:
 
-In the project directory, you can run:
+- User registration: Users can create a new account by providing their email address and password. The password is hashed and stored securely in the database.
 
-### `npm start`
+- User login: Users can log in to their account using their email address and password.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- User authentication: The application uses JSON Web Tokens (JWTs) to authenticate users and prevent unauthorized access to protected routes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Input validation: The frontend includes form validation to ensure that users enter valid data when registering or logging in.
 
-### `npm test`
+- Home page: Once a user is logged in, the application displays a simple home page with a welcome message.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Usage
+To install and use this application, follow these steps:
 
-### `npm run build`
+1. Clone the repository: `git clone https://github.com/arjuncspkd99/LoginRegisrationMern.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Install dependencies: `npm install`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Start the backend server: `npm run server`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Start the frontend development server: `npm run client`
 
-### `npm run eject`
+The application should now be running on `http://localhost:3000`.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contributing
+If you would like to contribute to this project, feel free to submit a pull request. Contributions are always welcome!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Login Page
+<img src="https://drive.google.com/uc?id=1Urx818p-QMqkhoHkf8FpcHPsRb7Ce_5F" alt="Login Page" width="600">
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Registration Page
 
-### Code Splitting
+![Home Page](https://drive.google.com/uc?id=182u5dQPQmRl-JfQSO2LBw9wDubSIbIHf "Home Page")
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Home Page
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<img src="https://drive.google.com/uc?id=1kS0LC7SmY3tCL31dndwh96CyTkHo2ji3" alt="Home page" width="600">
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
